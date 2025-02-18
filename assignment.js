@@ -41,6 +41,11 @@ function willSuccess(marks){
     let result = true;
     let passMarks = [];
     let failMarks = [];
+    for(num of marks){
+        if(typeof num !== "number"){
+            return "only number is allowed."
+        }
+    }
     for(const mark of marks){
         if(mark >= 50){
             passMarks.push(mark);
