@@ -79,11 +79,6 @@ function validProposal (person1 , person2){
     return result;
 }
 
-const moin = {name: "moin", gender:"female", age: 20}
-const munia = {name: "munia", gender: "female", age: 17}
-
-// const result = validProposal(moin, munia);
-// console.log(result);
 
 
 
